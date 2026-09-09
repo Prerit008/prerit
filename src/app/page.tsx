@@ -59,7 +59,7 @@ export default function UnderDevelopment() {
         <div className="under-development__actions">
           <Link
             className="under-development__button"
-            href="mailto:preritagrawal08@gmail.com"
+            href="mailto:contact@prerit.dev"
           >
             Say hello
             <IconArrowUpRight size={19} aria-hidden="true" />
@@ -67,7 +67,7 @@ export default function UnderDevelopment() {
 
           <Link
             className="under-development__text-link"
-            href="https://prerit.tech"
+            href="https://prerit.dev"
           >
             Visit portfolio
             <IconArrowUpRight size={17} aria-hidden="true" />
