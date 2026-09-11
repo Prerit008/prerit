@@ -1,0 +1,213 @@
+{
+    "site": {
+        "url": "https://prerit.dev",
+        "name": "Prerit.Dev",
+        "status": "online",
+        "title": "Prerit Agarwal",
+        "description": "Welcome to my digital home. I'm Prerit, a software engineer and designer who loves building beautiful, thoughtful, and real products.",
+        "iconUrl": "https://prerit.dev/icon.png"
+    },
+    "personal": {
+        "name": "Prerit Agarwal",
+        "shortName": "Prerit",
+        "email": "contact@prerit.dev",
+        "location": "India",
+        "bio": "Based in India, I'm a Full Stack Developer and a Software Engineer. I love to work with backend, data, and code. I'm passionate about open-source, web technologies, and building cool stuff."
+    },
+    "socialLinks": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/prerit008",
+            "icon": "github",
+            "handle": "@prerit008"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/in/prerit008",
+            "icon": "linkedin",
+            "handle": "@prerit008"
+        }
+    ],
+    "codingProfileKey": "prerit08",
+    "projects": [
+        {
+            "number": "01 (Under Development)",
+            "title": "AI Coffee / Blockchain",
+            "description": "An AI-powered system for detecting and classifying green coffee beans, with blockchain-based verification and traceability for trusted quality assessment.",
+            "tags": [
+                "AI",
+                "Computer Vision",
+                "Blockchain",
+                "Python"
+            ],
+            "imgSrc": "0df2e2902936.png"
+        },
+        {
+            "number": "02",
+            "title": "NER Smart Logistics",
+            "description": "AI-driven logistics & accessibility intelligence platform for the North Eastern Region. Features route risk prediction, offline SQLite sync, PostGIS spatial analysis, and real-time vehicle tracking.",
+            "tags": [
+                "FastAPI",
+                "React",
+                "PostGIS",
+                "Python"
+            ],
+            "imgSrc": "fe1b79f1bc6b.jpeg",
+            "githubUrl": "https://github.com/Prerit008/NER-Smart-Logistics",
+            "liveUrl": "https://ner-smart-logistics.vercel.app/"
+        },
+        {
+            "number": "03",
+            "title": "RTI Citizen",
+            "description": "A citizen-first redesign of India's Right to Information journey, built for Build What Moves India 2026. Features guided filing, SLA tracking, integrated First Appeals, and multilingual support.",
+            "tags": [
+                "React 19",
+                "Express.js",
+                "Tailwind CSS",
+                "Accessibility",
+                "OpenAI"
+            ],
+            "imgSrc": "f095556f0b2e.png",
+            "githubUrl": "https://github.com/Prerit008/RTI-Citizen",
+            "liveUrl": "https://rti-citizen.vercel.app/"
+        },
+        {
+            "number": "04",
+            "title": "PropChain",
+            "description": "A blockchain-powered land ownership and NFT marketplace prototype that tokenizes real estate parcels into ERC721-style smart contracts on EVM-compatible networks.",
+            "tags": [
+                "Solidity",
+                "Hardhat",
+                "Ethers.js",
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "imgSrc": "efb02e9b08ba.png",
+            "liveUrl": "https://testnet.snowtrace.io/address/0x63a67cD6862c99C3Fe2568338983D2Beec26ab37"
+        },
+        {
+            "number": "05",
+            "title": "LostLink",
+            "description": "A full-stack campus Lost and Found platform enabling students and staff to report, track, and recover lost belongings via a responsive, animated dashboard interface.",
+            "tags": [
+                "React",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Tailwind CSS",
+                "Firebase"
+            ],
+            "imgSrc": "ddd743f40c69.png",
+            "githubUrl": "https://github.com/Prerit008/lostLink",
+            "liveUrl": "https://lostlink-08.web.app/"
+        },
+        {
+            "number": "06",
+            "title": "EC Nexus",
+            "description": "A single-page React web application engineered for EquiCore Nexus, featuring interactive financial service breakdowns, case studies, client testimonial carousels, and contact inquiries.",
+            "tags": [
+                "Freelance",
+                "React",
+                "SPA",
+                "Tailwind CSS",
+                "Financial Tech"
+            ],
+            "imgSrc": "58fdc81d0a2d.png",
+            "liveUrl": "https://ecnexus.co"
+        },
+        {
+            "number": "07",
+            "title": "WorldFabInd",
+            "description": "Static multi-page business storefront engineered for World Fab Industry, showcasing corporate, hospital, hotel, industrial, and school uniform collections with WhatsApp inquiry routing.",
+            "tags": [
+                "Freelance",
+                "HTML5",
+                "Tailwind CSS",
+                "JavaScript",
+                "WhatsApp Integration"
+            ],
+            "imgSrc": "fb3ac34b752d.jpeg",
+            "liveUrl": "https://worldfabind.com"
+        },
+        {
+            "number": "08",
+            "title": "VitalPure",
+            "description": "Responsive showcase website built with HTML and CSS for Vital Pure water purifiers, featuring product catalog displays and direct booking integrations via WhatsApp, phone, and Google Forms.",
+            "tags": [
+                "Freelance",
+                "HTML5",
+                "CSS3",
+                "WhatsApp Integration",
+                "Google Forms"
+            ],
+            "imgSrc": "988aebc6d354.jpeg",
+            "liveUrl": "https://vitalpure.in"
+        }
+    ],
+    "about": {
+        "education": [
+            {
+                "year": "2023 - 27",
+                "title": "GCET, Greater Noida",
+                "course": "Bachelor's degree in Computer Science",
+                "description": "Bachelor's degree in Computer Science. A foundation in algorithms, systems, and the curiosity to keep learning well beyond the classroom.",
+                "tags": [
+                    "Algorithms",
+                    "Systems",
+                    "The web"
+                ]
+            },
+            {
+                "year": "2023",
+                "title": "Central Academy, Prayagraj",
+                "course": "Senior Secondary Education (XII)",
+                "description": "Senior secondary education with a focus on science and mathematics. Developed a strong analytical mindset and problem-solving skills.",
+                "tags": [
+                    "81%",
+                    "Physics",
+                    "Mathematics",
+                    "Chemistry",
+                    "Computer Science"
+                ]
+            },
+            {
+                "year": "2021",
+                "title": "Central Academy, Prayagraj",
+                "course": "Secondary Education (X)",
+                "description": "Secondary education. Built a solid academic foundation and nurtured a love for learning.",
+                "tags": [
+                    "92%",
+                    "Mathematics",
+                    "Science",
+                    "Social Studies",
+                    "Computer Science"
+                ]
+            }
+        ],
+        "journey": [
+            {
+                "year": "NOW",
+                "title": "Building independently",
+                "description": "Designing and engineering thoughtful products across the stack, with a focus on useful systems and calm interfaces for people."
+            },
+            {
+                "year": "2022 - 24",
+                "title": "Working at ground",
+                "description": "Worked across technology, data, and platform teams to turn technical problems into reliable user experiences."
+            },
+            {
+                "year": "2020 - 22",
+                "title": "Learning the ropes",
+                "description": "Gained experience in web development, product design, and software engineering through freelance work."
+            },
+            {
+                "year": "2018 - 20",
+                "title": "Finding the edges",
+                "description": "Explored technologies, developer tools, and the space where visual design meets practical engineering."
+            }
+        ],
+        "bio": "I'm Prerit Agarwal - a full stack developer and software engineer based in India. I like making complicated things feel considered, useful, and a little bit fun."
+    },
+    "home": "I'm Prerit, a designer and engineer who likes working where strategy, systems, and a good amount of curiosity overlap."
+}
