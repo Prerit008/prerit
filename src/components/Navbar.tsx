@@ -12,15 +12,8 @@ export default function Navbar() {
 
   useEffect(() => {
     const storedTheme = window.localStorage.getItem("theme");
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)",
-    ).matches;
     const nextTheme =
-      storedTheme === "dark" || storedTheme === "light"
-        ? storedTheme
-        : prefersDark
-          ? "dark"
-          : "light";
+      storedTheme === "dark" || storedTheme === "light" ? storedTheme : "light";
 
     setTheme(nextTheme);
     document.documentElement.dataset.theme = nextTheme;
@@ -84,7 +77,7 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      
+
       <div className="flex items-center gap-2">
         <button
           className="icon-button flex h-[38px] w-[38px] items-center justify-center"

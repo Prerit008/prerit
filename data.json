@@ -5,7 +5,8 @@
         "status": "online",
         "title": "Prerit Agarwal",
         "description": "Welcome to my digital home. I'm Prerit, a software engineer and designer who loves building beautiful, thoughtful, and real products.",
-        "iconUrl": "https://prerit.dev/icon.png"
+        "iconUrl": "https://prerit.dev/icon.png",
+        "thumbUrl": "https://prerit.dev/display.png"
     },
     "personal": {
         "name": "Prerit Agarwal",

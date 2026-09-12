@@ -142,32 +142,34 @@ export default function CodingPage() {
             {data ? `UPDATED ${formatDate(data.updatedAt)}` : "LOADING..."}
           </span>
         </div>
-        <div className="heatmap">
-          {Array.from({ length: 364 }, (_, index) => {
-            const date = new Date();
-            date.setDate(date.getDate() - (363 - index));
+        <div className="heatmap-scroll">
+          <div className="heatmap">
+            {Array.from({ length: 364 }, (_, index) => {
+              const date = new Date();
+              date.setDate(date.getDate() - (363 - index));
 
-            const key = date.toISOString().slice(0, 10);
-            const count = data?.heatmap?.[key] ?? 0;
+              const key = date.toISOString().slice(0, 10);
+              const count = data?.heatmap?.[key] ?? 0;
 
-            return (
-              <span
-                className={`heat-level-${
-                  count === 0 ? 0 : Math.min(4, Math.ceil((count / 3) * 4))
-                }`}
-                title={`${count} submissions on ${key}`}
-                key={key}
-                style={{
-                  gridRow: date.getDay() + 1,
-                  gridColumn: Math.floor(index / 7) + 1,
-                }}
-              />
-            );
-          })}
+              return (
+                <span
+                  className={`heat-level-${
+                    count === 0 ? 0 : Math.min(4, Math.ceil((count / 3) * 4))
+                  }`}
+                  title={`${count} submissions on ${key}`}
+                  key={key}
+                  style={{
+                    gridRow: date.getDay() + 1,
+                    gridColumn: Math.floor(index / 7) + 1,
+                  }}
+                />
+              );
+            })}
+          </div>
         </div>
         <div className="heatmap-legend">
           <span>LESS</span>
-          <div className="heatmap">
+          <div className="heatmap-steps">
             <i className="heat-level-0" />
             <i className="heat-level-1" />
             <i className="heat-level-2" />
