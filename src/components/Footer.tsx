@@ -1,3 +1,4 @@
+"use client";
 import {
   IconArrowUpRight,
   IconBrandGithub,
@@ -71,7 +72,9 @@ export default function Footer() {
           © {new Date().getFullYear()} {site.personal.name}
         </span>
         <span>Built with Next.js · v{VERSION}</span>
-        <Link href="/#top">Back to top ↑</Link>
+        <button onClick={()=> window.scrollTo({top:0,behavior: 'smooth' })} style={{ cursor: "pointer" }} >
+            Back to top ↑
+        </button>
       </div>
     </footer>
   );

@@ -81,7 +81,7 @@ export default function CodingPage() {
       {/* Header */}
       <div className="mb-12 flex flex-col gap-6 md:mb-16 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="eyebrow">05 / Problem solving</p>
+          <p className="eyebrow">04 / Problem solving</p>
           <h1 className="mb-0">
             Built by
             <br />
@@ -170,11 +170,11 @@ export default function CodingPage() {
         <div className="heatmap-legend">
           <span>LESS</span>
           <div className="heatmap-steps">
-            <i className="heat-level-0" />
-            <i className="heat-level-1" />
-            <i className="heat-level-2" />
-            <i className="heat-level-3" />
-            <i className="heat-level-4" />
+            <i className="hl-0"/>
+            <i className="hl-1"/>
+            <i className="hl-2"/>
+            <i className="hl-3"/>
+            <i className="hl-4"/>
           </div>
           <span>MORE</span>
         </div>

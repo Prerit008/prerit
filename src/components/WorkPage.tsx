@@ -6,7 +6,7 @@ export default function WorkPage() {
     <section className="section py-20 md:py-32" id="work">
       <div className="section-heading mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between md:mb-10">
         <div>
-          <p className="eyebrow">Projects I've Worked On</p>
+          <p className="eyebrow">02 / Projects I've Worked On</p>
           <h2>Useful over pretty.</h2>
         </div>
 

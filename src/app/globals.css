@@ -1714,6 +1714,9 @@ h2 {
   border: 1px solid var(--border);
   box-sizing: border-box;
 }
+.heatmap .heat-level-0{
+  background: white;
+}
 
 .heatmap .heat-level-1 {
   background: oklch(83% 0.12 296);
@@ -1729,6 +1732,28 @@ h2 {
 
 .heatmap .heat-level-4 {
   background: oklch(54% 0.23 296);
+}
+
+
+
+.hl-0{
+  background: white !important; 
+}
+
+.hl-1 {
+  background: oklch(83% 0.12 296) !important;
+}
+
+.hl-2 {
+  background: oklch(74% 0.16 296) !important;
+}
+
+.hl-3 {
+  background: oklch(64% 0.21 296) !important;
+}
+
+.hl-4 {
+  background: oklch(54% 0.23 296) !important;
 }
 
 .heatmap-legend {

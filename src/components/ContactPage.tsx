@@ -91,7 +91,7 @@ export default function ContactPage() {
     <section className="contact-page py-16 md:py-28">
       <div className="grid gap-14 md:grid-cols-[0.8fr_1.2fr] md:gap-20">
         <div>
-          <p className="eyebrow">03 / Contact</p>
+          <p className="eyebrow">06 / Contact</p>
           <h1>
             Let&apos;s make
             <br />

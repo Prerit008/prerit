@@ -39,7 +39,7 @@ export default function BlogPage() {
     <section className="blog-page py-16 md:py-28">
       <div className="mb-12 flex flex-col gap-5 md:mb-16 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="eyebrow">04 / Notes from the field</p>
+          <p className="eyebrow">05 / Notes from the field</p>
           <h1 className="mb-0">
             Thinking out
             <br />

@@ -7,7 +7,7 @@ export default function AboutPage() {
     <>
       <section className="about-hero grid gap-10 py-16 md:grid-cols-[1.1fr_0.9fr] md:items-end md:py-28">
         <div>
-          <p className="eyebrow">About the person behind the pixels</p>
+          <p className="eyebrow">03 / About the person behind the pixels</p>
           <h1 className="mb-0">
             Curious by
             <br />
@@ -21,7 +21,7 @@ export default function AboutPage() {
 
       <section className="about-panel grid gap-8 md:grid-cols-[0.7fr_1.3fr] md:gap-16">
         <div>
-          <p className="eyebrow">01 / Journey</p>
+          <p className="eyebrow">Journey</p>
           <h2>
             Still in
             <br />
@@ -43,7 +43,7 @@ export default function AboutPage() {
 
       <section className="about-panel grid gap-8 border-t-2 border-[var(--border)] md:grid-cols-[0.7fr_1.3fr] md:gap-16">
         <div>
-          <p className="eyebrow">02 / Education</p>
+          <p className="eyebrow">Education</p>
           <h2>
             Learning
             <br />

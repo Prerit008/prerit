@@ -95,7 +95,6 @@ export default function HomePage() {
     <>
       <section
         className="relative flex min-h-[570px] flex-col justify-center gap-12 py-16 md:grid md:grid-cols-[minmax(0,1fr)_minmax(280px,390px)] md:items-center md:gap-14 md:py-24"
-        id="top"
       >
         <div className="hero-copy max-w-[760px]">
           <HeroGreeting />
